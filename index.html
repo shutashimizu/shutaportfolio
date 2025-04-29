@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>じゅんちゃんのポートフォリオ</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>ポートフォリオ</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>じゅんちゃんのポートフォリオ</h1>
-    <p>ようこそ！ここでは私の作品をご紹介します✨</p>
+    <h1>あなたの名前</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">プロフィール</a></li>
+        <li><a href="#works">作品紹介</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section class="about">
-    <h2>👩‍💻 自己紹介</h2>
-    <p>こんにちは、じゅんちゃんです！Web制作やゲーム開発に挑戦中！</p>
+  <section id="about">
+    <h2>プロフィール</h2>
+    <p>自己紹介文をここに記載します。</p>
   </section>
 
-  <section class="skills">
-    <h2>🛠 スキル</h2>
-    <ul>
-      <li>HTML / CSS</li>
-      <li>JavaScript（ちょっと）</li>
-      <li>Processing / Unity / C4D</li>
-    </ul>
+  <section id="works">
+    <h2>作品紹介</h2>
+    <div class="work">
+      <img src="work1.jpg" alt="作品1">
+      <p>作品1の説明</p>
+    </div>
+    <!-- 他の作品も同様に追加 -->
   </section>
 
-  <section class="projects">
-    <h2>📂 プロジェクト</h2>
-    <ul>
-      <li><a href="https://github.com/ユーザー名/プロジェクト名">My Game Project</a></li>
-      <li><a href="https://github.com/ユーザー名/プロジェクト名">C4D アニメーション</a></li>
-    </ul>
+  <section id="contact">
+    <h2>お問い合わせ</h2>
+    <p>メールアドレスやSNSリンクをここに記載します。</p>
   </section>
 
   <footer>
-    <p>&copy; 2025 じゅんちゃん</p>
+    <p>&copy; 2025 あなたの名前</p>
   </footer>
 </body>
 </html>
