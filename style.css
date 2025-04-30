@@ -1,4 +1,8 @@
-/* style.css */
+header h1 {
+  font-family: "Meiryo", sans-serif;
+  font-weight: 900;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
@@ -24,6 +28,18 @@ nav ul li {
   margin: 0 15px;
 }
 
+nav a {
+  color: #fff; 
+  text-decoration-color: #fff; 
+  transition: color 0.3s, text-decoration-color 0.3s;
+}
+
+nav a:hover {
+  color: #f75c54; 
+  text-decoration-color: #f75c54; 
+}
+
+
 section {
   padding: 20px;
   background-color: #fff;
@@ -32,11 +48,4 @@ section {
 
 .work {
   margin-bottom: 20px;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
 }
